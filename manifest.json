@@ -1,0 +1,16 @@
+
+{
+  "manifest_version": 3,
+  "name": "Aviator Helper",
+  "version": "1.0",
+  "description": "Extensão para auxiliar no jogo Aviator",
+  "icons": {
+    "48": "icons/plane-safe.png",
+    "128": "icons/plane-risk.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/plane-safe.png"
+  },
+  "permissions": ["tabs"]
+}
